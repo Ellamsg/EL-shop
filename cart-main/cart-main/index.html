@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart JS</title>
+    <script src="https://kit.fontawesome.com/3b9e2cc044.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=
+Bebas+Neue&family=Big+Shoulders+Stencil+Display&family=Cormorant+Garamond:wght@
+300&family=Gemunu+Libre:wght@200;300&family=Monoton&family=Montserrat+Alternates:
+wght@100&family=Poppins:wght@100&family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto:
+wght@100&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="app-container">
+      
+        
+        
+        <header>
+            <div class="lection">
+                <div class="name">Devicer</div>
+               
+                <div class="put"><input   type="search">  </div>
+               
+                <div class="shopping-bag">
+                    <div class="total-items-in-cart">
+                        0
+                    </div>
+                    <a href="./another.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                       <span class="hide">Cart</span> 
+                       
+                    </a>
+                </div>
+            </div>
+           
+            <nav>
+                
+                <ul>
+                    <li class="">
+                        <a href="">
+                             Home
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            Features
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Shop
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                           Customer care 
+                        </a>
+                    </li>
+                   
+                </ul>
+               </nav>
+            
+           
+        </header>
+        <main >
+        <div  class="about">
+           <h1> NEW COLLECTIONS</h1>
+           <h1> COMING TO TOWN</h1>
+           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+           <p> Alias pariatur reprehenderit, laboriosam</p>
+           <div class="shop-now">SHOP NOW!</div>
+        </div> 
+        </main>
+ 
+   
+    <div  class="products-list">
+        <div   class="four reveal">          
+            <div  class="child">
+                <i style="float:left ;" class="fa-solid fa-house"></i>
+                <h1>Home Shipping </h1>
+        </div>
+        <div  class="child">
+            <i style="float:left ;" class="fa-solid fa-location-arrow"></i></i>
+            <h1>100% Refund
+                Cash Back </h1>
+    </div>
+            <div class="child">Clients′ Support
+            </div>
+            <div class="child">Fast Delivery</div>
+            
+        </div><br/>
+        <div   class="two">
+            <div  class="two1"> <video src="img/2022_06_18_04_45_IMG_2413.mp4 loop autoplay muted"></video>
+             </div>
+            <div class="two2">f</div>
+            
+            
+        </div><br/>
+        <div   class="three reveal">
+            
+            <div  class="child1">
+                <div class="btn">SALE</div>
+                <img  src="img/istockphoto-509464671-612x612-removebg-preview.png">
+            </div>
+            
+            <div class="child1">
+                <div class="btn">SALE</div>
+                <img  src="img/2022_06_18_04_52_IMG_2404.png">
+            </div>
+            
+            <div class="child1">
+                <div class="btn">SALE</div>
+                <img  src="img/2022_06_18_04_52_IMG_2403.png">
+            </div>
+            
+        </div><br/>
+        <div   class="products">
+           
+        </div><br/>
+        <div   class="six">
+            <div  class="six1">p</div>
+            <div class="six2">f</div>
+          
+        </div><br/>
+        <div   class="seven">
+            <div  class="five1">p</div>
+            <div class="five1">f</div>
+            <div class="five1">s</div>
+            <div  class="five1">p</div>
+        </div><br/>
+        <div   class="eight">
+            <div  class="child1">p</div>
+            <div class="child1">f</div>
+            <div class="child1">s</div>
+            
+        </div><br/>
+        <div   class="nine">
+            <div  class="five1">p</div>
+            <div class="five1">f</div>
+            <div class="five1">s</div>
+        </div><br/>
+        <div   class="nine">
+            <div  class="five1">p</div>
+            <div class="five1">f</div>
+            <div class="five1">s</div>
+        </div><br/>
+        <div   class="nine">
+            <div  class="five1">p</div>
+            <div class="five1">f</div>
+            <div class="five1">s</div>
+        </div><br/>
+        <!---->
+        
+   
+        
+        <div  style="display:none ;"  class="cart">
+            <div class="cart-header">
+                <div class="column1">Item</div>
+                <div class="column2">Unit price</div>
+                <div class="column3">Units</div>
+            </div>
+            <div style="display:none ;" class="cart-items">
+                <!-- render cart items here -->
+            </div>
+            
+            <div class="cart-footer">
+                <div class="subtotal">
+                    Subtotal (0 items): $0
+                </div>
+                <div class="checkout">
+                    Proceed to checkout
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+     
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+        const porductsListEl = document.querySelector(".products-list");
+        const seeMoreBtn = document.querySelector(".see-more-btn");
+
+        seeMoreBtn.addEventListener('click', () => {
+            porductsListEl.scrollIntoView({behavior: "smooth"})
+        })
+
+        
+    </script>
+
+    <script src="./products.js"></script>
+    <script src="./app.js"></script>
+    
+</body>
+</html>
